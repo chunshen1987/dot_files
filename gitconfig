@@ -1,0 +1,9 @@
+[user]
+	name = Chun Shen
+	email = chunshen1987@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
