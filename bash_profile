@@ -50,4 +50,4 @@ PATH=$PGI/osx86-64/16.10/bin/:$PATH; export PATH
 export PATH="~/bin:$PATH"
 
 # pythia
-export PYTHIA8DIR=/Users/chunshen/Softwares/pythia/pythia8230
+export PYTHIA8DIR=/Users/chunshen/Softwares/pythia/pythia8235
