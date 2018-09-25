@@ -17,9 +17,8 @@ alias toquark='ssh cshen@quark.phy.bnl.gov'
 guillimin='chunshen@guillimin.hpc.mcgill.ca'
 cori='chunshen@cori.nersc.gov'
 source ~/bin/git-completion.bash
-export CC=/opt/local/bin/gcc-mp-7
-export CXX=/opt/local/bin/g++-mp-7
-export FC=/opt/local/bin/gfortran-mp-7
+export CC=/opt/local/bin/gcc-7
+export CXX=/opt/local/bin/g++-7
 
 # add a clock in the terminal
 #while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-25));date;tput rc;done &
