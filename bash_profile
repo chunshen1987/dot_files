@@ -4,10 +4,9 @@ alias ll='ls -alh'
 PS1="\[\033[1;30m\][\[\033[1;31m\]\u\[\033[1;30m\]@\[\033[1;32m\]\D{%T %Z %a %D}\[\033[1;30m\]]\[\033[1;34m\]\W\[\033[1;30m\]\$\[\033[0m\]"
 
 alias python2='python2.7'
-alias python3='python3.5'
+alias python3='python3.6'
 alias ipython2='ipython-2.7'
-alias ipython3='ipython-3.5'
-alias gfortran='gfortran-mp-5'
+alias ipython3='ipython-3.6'
 alias subl='sublime'
 alias tocori='ssh chunshen@cori.nersc.gov'
 alias toguillimin='ssh chunshen@guillimin.hpc.mcgill.ca'
@@ -16,9 +15,10 @@ alias tosdcc='ssh cshen@ssh.sdcc.bnl.gov'
 alias toquark='ssh cshen@quark.phy.bnl.gov'
 guillimin='chunshen@guillimin.hpc.mcgill.ca'
 cori='chunshen@cori.nersc.gov'
+wsugrid='gf8206@grid.wayne.edu'
 source ~/bin/git-completion.bash
-export CC=/opt/local/bin/gcc-7
-export CXX=/opt/local/bin/g++-7
+export CC=/usr/local/bin/gcc-7
+export CXX=/usr/local/bin/g++-7
 
 # add a clock in the terminal
 #while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-25));date;tput rc;done &
@@ -49,4 +49,14 @@ PATH=$PGI/osx86-64/16.10/bin/:$PATH; export PATH
 export PATH="~/bin:$PATH"
 
 # pythia
-export PYTHIA8DIR=/Users/chunshen/Softwares/pythia/pythia8235
+export PYTHIA8DIR=/Users/chunshen/Softwares/pythia/
+export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia/lib:$DYLD_LIBRARY_PATH"
+
+# boost
+export BOOST_ROOT=/Users/chunshen/Softwares/boost
+export LD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH"
+
+# added by Anaconda3 5.2.0 installer
+export PATH="/Users/chunshen/anaconda3/bin:$PATH"
