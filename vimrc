@@ -32,8 +32,8 @@ if has("autocmd")
    \| exe "normal! g'\"" | endif
 endif
 
-au BufWinLeave * silent! mkview
-au BufWinEnter * silent! loadview
+"au BufWinLeave * silent! mkview
+"au BufWinEnter * silent! loadview
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><up>

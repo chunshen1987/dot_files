@@ -3,7 +3,18 @@
 	email = chunshen1987@gmail.com
 [core]
 	editor = vim
+	excludesfile = /Users/chunshen/.gitignore_global
 [merge]
 	tool = vimdiff
 [color]
-	ui = true
+    ui = true
+[diff]
+    tool = p4merge
+[difftool "p4merge"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$REMOTE\"" "\"$LOCAL\""
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

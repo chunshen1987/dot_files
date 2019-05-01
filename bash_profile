@@ -3,6 +3,8 @@ alias ls='ls -FG'
 alias ll='ls -alh'
 PS1="\[\033[1;30m\][\[\033[1;31m\]\u\[\033[1;30m\]@\[\033[1;32m\]\D{%T %Z %a %D}\[\033[1;30m\]]\[\033[1;34m\]\W\[\033[1;30m\]\$\[\033[0m\]"
 
+alias tmux="TERM=screen-256color-bce tmux"
+
 alias tocori='ssh chunshen@cori.nersc.gov'
 alias toguillimin='ssh chunshen@guillimin.hpc.mcgill.ca'
 alias towsugrid='ssh gf8206@grid.wayne.edu'
