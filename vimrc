@@ -15,6 +15,8 @@ set autoindent
 set smartindent
 set cindent
 
+set t_Co=256
+
 "set textwidth=79
 set wrapmargin=1
 
