@@ -22,8 +22,28 @@ set wrapmargin=1
 
 "set spell               "spell checking
 
+"support for git
+function CurrentGitStatus()
+    let gitoutput = system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
+    if len(gitoutput) > 0
+        let b:gitstatus = gitoutput
+    else
+        let b:gitstatus = ''
+    endif
+endfunc
+autocmd BufEnter,BufWritePost * call CurrentGitStatus()
+
+"format of the status bar
 set laststatus=2        "position of the status bar
-set statusline=[File:%n%H%M%R%W]\ [Name:%t]\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [lin:%l,\col:%v][%p%%]        "format of the status bar
+set statusline=
+set statusline=%(<%{b:gitstatus}>%)
+set statusline+=\ %f%m
+set statusline+=%=
+set statusline+=\ %y
+set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
+set statusline+=\[%{&fileformat}\]
+set statusline+=\ %p%%
+set statusline+=\ %l:%c
 
 set hlsearch            "highlight all search entries
 set ignorecase          "no case sensitivity
