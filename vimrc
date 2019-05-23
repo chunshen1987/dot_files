@@ -16,6 +16,7 @@ set smartindent
 set cindent
 
 set t_Co=256
+set encoding=utf-8
 
 "set textwidth=79
 set wrapmargin=1
@@ -92,6 +93,9 @@ set statusline+=%*
 
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+nnoremap <C-w>e :SyntasticToggleMode<CR>: SyntasticCheck<CR>
+let g:syntastic_loc_list_height=5
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 

@@ -14,8 +14,8 @@ guillimin='chunshen@guillimin.hpc.mcgill.ca'
 cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
 source ~/bin/git-completion.bash
-export CC=/usr/local/bin/gcc-7
-export CXX=/usr/local/bin/g++-7
+export CC=/usr/local/bin/gcc-9
+export CXX=/usr/local/bin/g++-9
 
 # add a clock in the terminal
 #while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-25));date;tput rc;done &
@@ -34,3 +34,4 @@ export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH
 
 # added by Anaconda3 5.2.0 installer
 export PATH="/Users/chunshen/anaconda3/bin:$PATH"
+
