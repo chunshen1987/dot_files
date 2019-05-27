@@ -23,9 +23,9 @@ export CXX=/usr/local/bin/g++-9
 export PATH="~/bin:$PATH"
 
 # pythia
-export PYTHIA8DIR=/Users/chunshen/Softwares/pythia/
-export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia/lib:$LD_LIBRARY_PATH"
-export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia/lib:$DYLD_LIBRARY_PATH"
+export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
+export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$DYLD_LIBRARY_PATH"
 
 # boost
 export BOOST_ROOT=/Users/chunshen/Softwares/boost
