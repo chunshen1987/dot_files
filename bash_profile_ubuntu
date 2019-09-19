@@ -26,14 +26,14 @@ fi
 export PATH="~/bin:$PATH"
 
 # pythia
-export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
-export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$LD_LIBRARY_PATH"
-export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$DYLD_LIBRARY_PATH"
+#export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
+#export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$LD_LIBRARY_PATH"
+#export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$DYLD_LIBRARY_PATH"
 
 # boost
-export BOOST_ROOT=/Users/chunshen/Softwares/boost
-export LD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$LD_LIBRARY_PATH"
-export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH"
+#export BOOST_ROOT=/Users/chunshen/Softwares/boost
+#export LD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$LD_LIBRARY_PATH"
+#export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH"
 
 # added by Anaconda3 5.2.0 installer
 export PATH="/Users/chunshen/anaconda3/bin:$PATH"
@@ -45,3 +45,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 
 # intel
 source /opt/intel/parallel_studio_xe_2019/psxevars.sh
+
+# pgi
+export PATH="/opt/pgi/linux86-64/2019/bin:$PATH"
+export LD_LIBRARY_PATH="/opt/pgi/linux86-64/2019/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/opt/pgi/linux86-64/2019/lib:$DYLD_LIBRARY_PATH"
