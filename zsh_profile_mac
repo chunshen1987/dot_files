@@ -106,7 +106,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias tocori='ssh chunshen@cori.nersc.gov'
+alias tocori='ssh -i ~/.ssh/nersc cori.nersc.gov'
 alias toguillimin='ssh chunshen@guillimin.hpc.mcgill.ca'
 alias towsugrid='ssh gf8206@grid.wayne.edu'
 alias tosdcc='ssh cshen@ssh.sdcc.bnl.gov'
