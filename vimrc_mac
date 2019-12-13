@@ -100,8 +100,7 @@ set laststatus=2        "position of the status bar
 set statusline=
 set statusline+=%{ChangeStatuslineColor()}               " Changing the statusline color
 set statusline+=%0*\ %{toupper(g:currentmode[mode()])}   " Current mode
-"set statusline+=%0*\ [%n]                                " buffernr
-set statusline+=%2*\ %{b:gitstatus}                      " Git Branch name
+set statusline+=%2*\ %{b:gitstatus}\                     " Git Branch name
 set statusline+=%7*\ %<%f%{ReadOnly()}%m\                " Filename
 set statusline+=%*
 set statusline+=%9*\ %=                                  " Space
@@ -110,13 +109,13 @@ set statusline+=%7*\ %{(&fenc!=''?&fenc:&enc)}\[%{&ff}]\ " Encoding & Fileformat
 set statusline+=%4*\ %-3(%{FileSize()}%)                 " File size
 set statusline+=%0*\ %p%%\ %l:%c                        " Rownumber/total (%)
 hi User1 ctermfg=001
-hi User2 ctermfg=002
+hi User2 ctermfg=002 ctermbg=235
 hi User3 ctermfg=003
 hi User4 ctermfg=004
 hi User5 ctermfg=005
-hi User7 ctermfg=007
-hi User8 ctermfg=008
-hi User9 ctermfg=009
+hi User7 ctermfg=007 ctermbg=008
+hi User8 ctermfg=057 ctermbg=008
+hi User9 ctermfg=009 ctermbg=008
 
 set hlsearch            "highlight all search entries
 set ignorecase          "no case sensitivity
