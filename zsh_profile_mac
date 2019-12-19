@@ -124,3 +124,13 @@ export CXX=/usr/local/bin/g++-9
 export PATH="/Users/chunshen/opt/anaconda3/bin/:$PATH"
 
 export PATH="/Users/chunshen/bin/:$PATH"
+
+# pythia
+export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
+export LD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$DYLD_LIBRARY_PATH"
+
+# boost
+export BOOST_ROOT=/Users/chunshen/Softwares/boost
+export LD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH"
