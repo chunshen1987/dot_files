@@ -134,3 +134,5 @@ export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/pythia8235/lib:$DYLD_LIBRARY
 export BOOST_ROOT=/Users/chunshen/Softwares/boost
 export LD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$LD_LIBRARY_PATH"
 export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH"
+
+setopt nonomatch
