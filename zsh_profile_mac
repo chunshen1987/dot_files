@@ -116,6 +116,7 @@ alias toosg='ssh chunshen1987@login04.osgconnect.net'
 guillimin='chunshen@guillimin.hpc.mcgill.ca'
 cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
+osg='chunshen1987@login04.osgconnect.net'
 
 export CC=/usr/local/bin/gcc-9
 export CXX=/usr/local/bin/g++-9

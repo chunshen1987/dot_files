@@ -11,10 +11,11 @@ alias towsugrid='ssh gf8206@grid.wayne.edu'
 alias tosdcc='ssh cshen@ssh.sdcc.bnl.gov'
 alias toquark='ssh cshen@quark.phy.bnl.gov'
 alias toeinstein='ssh chunshen@einstein.physics.wayne.edu'
-alias toosg='ssh chunshen1987@login.osgconnect.net'
+alias toosg='ssh chunshen1987@login04.osgconnect.net'
 guillimin='chunshen@guillimin.hpc.mcgill.ca'
 cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
+osg='chunshen1987@login04.osgconnect.net'
 source ~/bin/git-completion.bash
 export CC=/usr/local/bin/gcc-9
 export CXX=/usr/local/bin/g++-9
