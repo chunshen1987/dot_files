@@ -14,6 +14,10 @@ set softtabstop=4       "tab key length
 set autoindent
 set smartindent
 set cindent
+set nobackup
+set noswapfile
+set undodir=~/.vim/undodir
+set undofile
 
 set t_Co=256
 set encoding=utf-8
@@ -118,6 +122,7 @@ hi User8 ctermfg=057 ctermbg=008
 hi User9 ctermfg=009 ctermbg=008
 
 set hlsearch            "highlight all search entries
+set incsearch
 set ignorecase          "no case sensitivity
 set smartcase           "sensitive to upper case letter in the search
 
