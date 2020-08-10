@@ -125,9 +125,9 @@ export OMPI_CXX=g++-9
 export OMPI_FC=gfortran-9
 
 # added by Anaconda3 5.2.0 installer
-export PATH="/Users/chunshen/opt/anaconda3/bin/:$PATH"
+#export PATH="/Users/chunshen/opt/anaconda3/bin/:$PATH"
 
-export PATH="/Users/chunshen/bin/:$PATH"
+export PATH="/Users/chunshen/Softwares/binscripts/:$PATH"
 
 # pythia
 export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
