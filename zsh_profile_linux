@@ -117,10 +117,7 @@ cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
 osg='chunshen1987@login04.osgconnect.net'
 
-# added by Anaconda3 5.2.0 installer
-export PATH="/Users/chunshen/opt/anaconda3/bin/:$PATH"
-
-export PATH="/Users/chunshen/bin/:$PATH"
+export PATH="/home/chunshen/Softwares/bin:$PATH"
 
 # pythia
 export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
@@ -134,3 +131,4 @@ export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH
 
 setopt nonomatch
 
+export PATH="/home/chunshen/.local/bin:$PATH"
