@@ -117,7 +117,7 @@ cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
 osg='chunshen1987@login04.osgconnect.net'
 
-export PATH="/home/chunshen/Softwares/bin:$PATH"
+export PATH="/home/chunshen/Softwares/binscripts:$PATH"
 
 # pythia
 export PYTHIA8DIR=/Users/chunshen/Softwares/pythia8235/
