@@ -76,6 +76,10 @@ plugins=(
     lighthouse
     vi-mode
     sublime
+    sudo
+    colored-man-pages
+    zsh-syntax-highlighting
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
