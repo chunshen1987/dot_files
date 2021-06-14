@@ -118,11 +118,11 @@ cori='chunshen@cori.nersc.gov'
 wsugrid='gf8206@grid.wayne.edu'
 osg='chunshen1987@login04.osgconnect.net'
 
-export CC=/usr/local/bin/gcc-9
-export CXX=/usr/local/bin/g++-9
-export OMPI_CC=gcc-9
-export OMPI_CXX=g++-9
-export OMPI_FC=gfortran-9
+export CC=/usr/local/bin/gcc-10
+export CXX=/usr/local/bin/g++-10
+export OMPI_CC=gcc-10
+export OMPI_CXX=g++-10
+export OMPI_FC=gfortran-10
 
 # added by Anaconda3 5.2.0 installer
 #export PATH="/Users/chunshen/opt/anaconda3/bin/:$PATH"

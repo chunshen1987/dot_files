@@ -1,5 +1,13 @@
 figure.figsize : 8., 6.   # 4:3 ratio
 #figure.figsize : 10.6, 6.   # 16:9 ratio
+figure.subplot.left:   0.13   # the left side of the subplots of the figure
+figure.subplot.right:  0.95   # the right side of the subplots of the figure
+figure.subplot.bottom: 0.13   # the bottom of the subplots of the figure
+figure.subplot.top:    0.95   # the top of the subplots of the figure
+figure.subplot.wspace: 0.0    # the amount of width reserved for space between subplots,
+                              # expressed as a fraction of the average axis width
+figure.subplot.hspace: 0.0    # the amount of height reserved for space between subplots,
+                              # expressed as a fraction of the average axis height
 
 ### AXES
 axes.labelsize : 20.
