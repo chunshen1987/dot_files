@@ -76,6 +76,10 @@ plugins=(
     lighthouse
     vi-mode
     sublime
+    sudo
+    colored-man-pages
+    zsh-syntax-highlighting
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -132,3 +136,9 @@ export DYLD_LIBRARY_PATH="/Users/chunshen/Softwares/boost/lib:$DYLD_LIBRARY_PATH
 setopt nonomatch
 
 export PATH="/home/chunshen/.local/bin:$PATH"
+
+# NVIDIA HPC SDK
+NVARCH=`uname -s`_`uname -m`; export NVARCH
+NVCOMPILERS=/opt/nvidia/hpc_sdk; export NVCOMPILERS
+MANPATH=$MANPATH:$NVCOMPILERS/$NVARCH/20.7/compilers/man; export MANPATH
+PATH=$NVCOMPILERS/$NVARCH/20.7/compilers/bin:$PATH; export PATH
