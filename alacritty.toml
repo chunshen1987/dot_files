@@ -1,7 +1,7 @@
 # themes from https://github.com/alacritty/alacritty-theme
 
-import = ["~/.config/alacritty/themes/themes/pastel_dark.toml"]
-#import = ["~/.config/alacritty/themes/themes/ashes_dark.toml"]
+#import = ["~/.config/alacritty/themes/themes/pastel_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/ashes_dark.toml"]
 #import = ["~/.config/alacritty/themes/themes/everforest_dark.toml"]
 
 [window]
