@@ -2,6 +2,9 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
+vim.cmd("set list")
+vim.cmd("set listchars=tab:>-,trail:·")
+vim.cmd("set colorcolumn=80")
 vim.g.mapleader = ";"
 
 -- Navigate vim panes better
