@@ -121,3 +121,4 @@ export PATH="/Users/chunshen/Softwares/binscripts/:$PATH"
 
 setopt nonomatch
 
+source ~/pyvenv/bin/activate

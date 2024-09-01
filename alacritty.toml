@@ -1,8 +1,14 @@
 # themes from https://github.com/alacritty/alacritty-theme
 
-#import = ["~/.config/alacritty/themes/themes/pastel_dark.toml"]
-import = ["~/.config/alacritty/themes/themes/ashes_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/alacritty_0_12.toml"]
+#import = ["~/.config/alacritty/themes/themes/ashes_dark.toml"]
+#import = ["~/.config/alacritty/themes/themes/ayu_dark.toml"]
+#import = ["~/.config/alacritty/themes/themes/base16_default_dark.toml"]
+#import = ["~/.config/alacritty/themes/themes/chicago95.toml"]
+#import = ["~/.config/alacritty/themes/themes/dark_pastels.toml"]
+#import = ["~/.config/alacritty/themes/themes/dracula_plus.toml"]
 #import = ["~/.config/alacritty/themes/themes/everforest_dark.toml"]
+#import = ["~/.config/alacritty/themes/themes/kanagawa_wave.toml"]
 
 [window]
 dimensions = { columns = 120, lines = 90 }
