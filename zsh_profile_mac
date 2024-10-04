@@ -113,6 +113,8 @@ alias toosg='ssh chunshen1987@ap20.uc.osg-htc.org'
 wsugrid='gf8206@grid.wayne.edu'
 osg='chunshen1987@ap20.uc.osg-htc.org'
 
+alias vim='nvim'
+
 export CC=/usr/local/bin/gcc-13
 export CXX=/usr/local/bin/g++-13
 
